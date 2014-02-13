@@ -1,2 +1,4 @@
+removed_sources:
+  Test-Synopsis-0.06.tar.gz: 7a72044c25cd4b2b15f44e131720f317b79e2c9a
 sources:
-  "Test-Synopsis-0.06.tar.gz": 7a72044c25cd4b2b15f44e131720f317b79e2c9a
+  Test-Synopsis-0.10.tar.gz: 28159debc672d4321f409f05b8e0da2dc446fe7a

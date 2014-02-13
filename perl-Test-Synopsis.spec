@@ -1,15 +1,15 @@
 %define upstream_name    Test-Synopsis
-%define upstream_version 0.06
+%define upstream_version 0.10
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Test your SYNOPSIS code
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Synopsis-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -57,3 +57,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Mar 27 2010 cpan2dist 0.06-1mdv
 - initial mdv release, generated with cpan2dist
+
